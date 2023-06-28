@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@1,500&family=Montserrat:ital,wght@0,500;1,700&family=Outfit:wght@500&family=Poppins:ital,wght@0,400;0,600;1,200&family=Raleway:wght@200;300&family=Roboto:ital,wght@0,300;0,700;1,100;1,300;1,400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --Primary--Red: hsl(0, 78%, 62%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+    --Very-Dark-Blue: hsl(234, 12%, 34%);
+    --Grayish-Blue: hsl(229, 6%, 66%);
+    --Very-Light-Gray: hsl(0, 0%, 98%);
+}
+
+body {
+    font-size: 15px;
+    background-color: var(--Very-Light-Gray);
+    font-family: 'poppins', sans-serif;
+    flex-wrap: wrap;
+
+}
+
+.main {
+    width: 480px;
+    height: 180px;
+    /* border:1px solid red; */
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+    display: inline;
+    position: absolute;
+    left: 31%;
+
+}
+
+.p1 {
+    color: var(--Very-Dark-Blue);
+    font-size: 30px;
+}
+
+.h2 {
+    margin-top: 8px;
+    color: var(--Very-Dark-Blue);
+}
+
+.p2 {
+    color: var(--Grayish-Blue);
+    margin-top: 8px;
+    font-size: 1px;
+
+}
+
+.super,
+.team,
+.karma,
+.calcu {
+    width: 250px;
+    height: 180px;
+    /* border: 1px solid red; */
+}
+
+.super {
+    position: absolute;
+    left: 18%;
+    top: 48%;
+    background-color: white;
+    border-radius: 5px;
+    border-top: 4px solid var(--Cyan);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    display: inline;
+
+}
+
+.super h3 {
+    color: var(--Very-Dark-Blue);
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.super p {
+    color: var(--Grayish-Blue);
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 1px;
+}
+
+.logo {
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+    width: 50px;
+}
+
+.team {
+    position: absolute;
+    left: 38%;
+    top: 30%;
+    border-radius: 5px;
+    background-color: white;
+    border-top: 4px solid var(--Primary--Red);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    display: inline;
+
+
+}
+
+.team h3 {
+    color: var(--Very-Dark-Blue);
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.team p {
+    color: var(--Grayish-Blue);
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 1px;
+}
+
+.karma {
+    position: absolute;
+    bottom: 9%;
+    left: 38%;
+    border-radius: 5px;
+    border-top: 4px solid var(--Orange);
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    display: inline;
+
+}
+
+.karma h3 {
+    color: var(--Very-Dark-Blue);
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.karma p {
+    color: var(--Grayish-Blue);
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 1px;
+}
+
+.calcu {
+    position: absolute;
+    right: 24%;
+    top: 45%;
+    border-radius: 5px;
+    border-top: 4px solid var(--Blue);
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    display: inline;
+
+}
+
+.calcu h3 {
+    color: var(--Very-Dark-Blue);
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.calcu p {
+    color: var(--Grayish-Blue);
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 1px;
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media(max-width:768px) {
+    body {
+        width: 400px;
+        height: 1100px;
+    }
+
+    .main {
+        /* font-size: 1px; */
+        /* background-color: blue; */
+        /* width: 90%; */
+        width: 240px;
+        height: 150px;
+        position:absolute;
+        left: 15%;
+        right: 0%;
+
+    }
+    .p2{
+        font-size: 1px;
+    }
+    .p1 {
+        color: var(--Very-Dark-Blue);
+        font-size: 1px;
+        
+    }
+    
+    .h2 {
+        font-size: 15px;
+        margin-top: 8px;
+        color: var(--Very-Dark-Blue);
+    }
+
+    .super {
+        position: absolute;
+        top: 24%;
+        right: 30%;
+        align-items: center;
+
+    }
+
+    .team {
+        position: absolute;
+        top: 52%;
+        left: 18%;
+        align-items: center;
+
+    }
+
+    .karma {
+        position: absolute;
+        top: 80%;
+        left: 18%;
+        align-items: center;
+
+    }
+
+    .calcu {
+        position: absolute;
+        top: 108%;
+        left: 18%;
+        align-items: center;
+
+    }
+}
